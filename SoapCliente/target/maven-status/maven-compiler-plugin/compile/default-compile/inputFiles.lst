@@ -1,7 +1,10 @@
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\src\main\java\itson\mx\soapcliente\SoapCliente.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\ObjectFactory.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\NewWebService.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\package-info.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\NewWebService_Service.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\Hello.java
-C:\Users\abelc\OneDrive\Documentos\NetBeansProjects\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\HelloResponse.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\AddUser.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\User.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\package-info.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\ObjectFactory.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\SOAPImpl_Service.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\src\main\java\itson\mx\soapcliente\SoapCliente.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\AddUserResponse.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\GetUsers.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\GetUsersResponse.java
+C:\Users\abelc\OneDrive\Documentos\GitHub\SOAP-service\SoapCliente\target\generated-sources\wsimport\com\itson\soapcliente\SOAPImpl.java

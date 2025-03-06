@@ -4,6 +4,9 @@
 
 package itson.mx.soapcliente;
 
+
+
+
 /**
  *
  * @author abelc
@@ -11,6 +14,6 @@ package itson.mx.soapcliente;
 public class SoapCliente {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }

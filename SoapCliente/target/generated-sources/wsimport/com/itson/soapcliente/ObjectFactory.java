@@ -24,8 +24,10 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 @XmlRegistry
 public class ObjectFactory {
 
-    private static final QName _Hello_QNAME = new QName("http://webServices/", "hello");
-    private static final QName _HelloResponse_QNAME = new QName("http://webServices/", "helloResponse");
+    private static final QName _AddUser_QNAME = new QName("http://webServices/", "addUser");
+    private static final QName _AddUserResponse_QNAME = new QName("http://webServices/", "addUserResponse");
+    private static final QName _GetUsers_QNAME = new QName("http://webServices/", "getUsers");
+    private static final QName _GetUsersResponse_QNAME = new QName("http://webServices/", "getUsersResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.itson.soapcliente
@@ -35,49 +37,105 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Hello }
+     * Create an instance of {@link AddUser }
      * 
      * @return
-     *     the new instance of {@link Hello }
+     *     the new instance of {@link AddUser }
      */
-    public Hello createHello() {
-        return new Hello();
+    public AddUser createAddUser() {
+        return new AddUser();
     }
 
     /**
-     * Create an instance of {@link HelloResponse }
+     * Create an instance of {@link AddUserResponse }
      * 
      * @return
-     *     the new instance of {@link HelloResponse }
+     *     the new instance of {@link AddUserResponse }
      */
-    public HelloResponse createHelloResponse() {
-        return new HelloResponse();
+    public AddUserResponse createAddUserResponse() {
+        return new AddUserResponse();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Hello }{@code >}
+     * Create an instance of {@link GetUsers }
+     * 
+     * @return
+     *     the new instance of {@link GetUsers }
+     */
+    public GetUsers createGetUsers() {
+        return new GetUsers();
+    }
+
+    /**
+     * Create an instance of {@link GetUsersResponse }
+     * 
+     * @return
+     *     the new instance of {@link GetUsersResponse }
+     */
+    public GetUsersResponse createGetUsersResponse() {
+        return new GetUsersResponse();
+    }
+
+    /**
+     * Create an instance of {@link User }
+     * 
+     * @return
+     *     the new instance of {@link User }
+     */
+    public User createUser() {
+        return new User();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddUser }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link Hello }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link AddUser }{@code >}
      */
-    @XmlElementDecl(namespace = "http://webServices/", name = "hello")
-    public JAXBElement<Hello> createHello(Hello value) {
-        return new JAXBElement<>(_Hello_QNAME, Hello.class, null, value);
+    @XmlElementDecl(namespace = "http://webServices/", name = "addUser")
+    public JAXBElement<AddUser> createAddUser(AddUser value) {
+        return new JAXBElement<>(_AddUser_QNAME, AddUser.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HelloResponse }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddUserResponse }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link HelloResponse }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link AddUserResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://webServices/", name = "helloResponse")
-    public JAXBElement<HelloResponse> createHelloResponse(HelloResponse value) {
-        return new JAXBElement<>(_HelloResponse_QNAME, HelloResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://webServices/", name = "addUserResponse")
+    public JAXBElement<AddUserResponse> createAddUserResponse(AddUserResponse value) {
+        return new JAXBElement<>(_AddUserResponse_QNAME, AddUserResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetUsers }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetUsers }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://webServices/", name = "getUsers")
+    public JAXBElement<GetUsers> createGetUsers(GetUsers value) {
+        return new JAXBElement<>(_GetUsers_QNAME, GetUsers.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetUsersResponse }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetUsersResponse }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://webServices/", name = "getUsersResponse")
+    public JAXBElement<GetUsersResponse> createGetUsersResponse(GetUsersResponse value) {
+        return new JAXBElement<>(_GetUsersResponse_QNAME, GetUsersResponse.class, null, value);
     }
 
 }

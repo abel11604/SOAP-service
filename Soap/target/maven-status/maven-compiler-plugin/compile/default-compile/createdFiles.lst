@@ -1,3 +1,6 @@
-itson\mx\soap\resources\JakartaEE91Resource.class
+webServices\SOAPI.class
 itson\mx\soap\JakartaRestConfiguration.class
-webServices\NewWebService.class
+webServices\SoapServer.class
+webServices\User.class
+itson\mx\soap\resources\JakartaEE91Resource.class
+webServices\SOAPImpl.class

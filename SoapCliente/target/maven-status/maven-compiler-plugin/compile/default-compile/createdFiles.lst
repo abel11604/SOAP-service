@@ -1,7 +1,10 @@
-com\itson\soapcliente\HelloResponse.class
+com\itson\soapcliente\SOAPImpl.class
 com\itson\soapcliente\package-info.class
+com\itson\soapcliente\AddUser.class
 itson\mx\soapcliente\SoapCliente.class
-com\itson\soapcliente\NewWebService_Service.class
-com\itson\soapcliente\Hello.class
+com\itson\soapcliente\GetUsers.class
+com\itson\soapcliente\User.class
 com\itson\soapcliente\ObjectFactory.class
-com\itson\soapcliente\NewWebService.class
+com\itson\soapcliente\GetUsersResponse.class
+com\itson\soapcliente\SOAPImpl_Service.class
+com\itson\soapcliente\AddUserResponse.class
