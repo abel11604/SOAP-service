@@ -19,7 +19,7 @@
     </properties>
     
    <dependencies>
-    <!-- 🔹 API y Runtime de JAX-WS (SOAP) -->
+
     <dependency>
         <groupId>jakarta.xml.ws</groupId>
         <artifactId>jakarta.xml.ws-api</artifactId>
@@ -32,7 +32,7 @@
         <version>4.0.3</version>
     </dependency>
 
-    <!-- 🔹 API y Runtime de JAXB (Serialización XML para SOAP) -->
+    
     <dependency>
         <groupId>jakarta.xml.bind</groupId>
         <artifactId>jakarta.xml.bind-api</artifactId>
@@ -45,7 +45,7 @@
         <version>4.0.2</version>
     </dependency>
 
-    <!-- 🔹 API y Runtime de JAX-RS (REST) -->
+  
     <dependency>
         <groupId>jakarta.ws.rs</groupId>
         <artifactId>jakarta.ws.rs-api</artifactId>
@@ -64,7 +64,7 @@
         <version>3.1.2</version>
     </dependency>
 
-    <!-- 🔹 API y Implementación de Servlet para correr JAX-RS en un contenedor como Tomcat -->
+   
     <dependency>
         <groupId>jakarta.servlet</groupId>
         <artifactId>jakarta.servlet-api</artifactId>
@@ -72,7 +72,7 @@
         <scope>provided</scope>
     </dependency>
 
-    <!-- 🔹 Dependencia para usar un Servidor embebido (opcional si usas Tomcat externo) -->
+    
     <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
@@ -85,7 +85,7 @@
         <version>11.0.14</version>
     </dependency>
 
-    <!-- 🔹 Dependencia de logging (para evitar errores en Jersey y SOAP) -->
+    
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
